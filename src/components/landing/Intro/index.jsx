@@ -11,7 +11,7 @@ export const Intro = () => (
     <IntroWrapper as={Container}>
       <Details>
         <h1>Hi There!</h1>
-        <h4>I'm Scott. I'm a software engineer who changes is passionate about product, technology and startups.</h4>
+        <h4>I'm Scott. I'm a software enfgbineer? who changes is passionate about product, technology and startups.</h4>
         <Button as={AnchorLink} href="#contact">
           Hire me
         </Button>
