@@ -5,40 +5,41 @@ import starIcon from 'assets/icons/star.svg';
 import forkIcon from 'assets/icons/fork.svg';
 import { Wrapper, Grid, Item, Content, Stats } from './styles';
 
-export const Projects = () => (
-  // const {
-  //   github: {
-  //     viewer: {
-  //       repositories: { edges },
-  //     },
-  //   },
-  // } = useStaticQuery(
-  //   graphql`
-  //     {
-  //       github {
-  //         viewer {
-  //           repositories(first: 8, orderBy: { field: STARGAZERS, direction: DESC }) {
-  //             edges {
-  //               node {
-  //                 id
-  //                 name
-  //                 url
-  //                 description
-  //                 stargazers {
-  //                   totalCount
-  //                 }
-  //                 forkCount
-  //               }
-  //             }
-  //           }
-  //         }
-  //       }
-  //     }
-  //   `
-  // );
-  <Wrapper as={Container} id="projects">
-    <h2>Projects</h2>
-    {/* <Grid>
+export const Projects = () => {
+  const {
+    github: {
+      viewer: {
+        repositories: { edges },
+      },
+    },
+  } = useStaticQuery(
+    graphql`
+      {
+        github {
+          viewer {
+            repositories(first: 8, orderBy: { field: STARGAZERS, direction: DESC }) {
+              edges {
+                node {
+                  id
+                  name
+                  url
+                  description
+                  stargazers {
+                    totalCount
+                  }
+                  forkCount
+                }
+              }
+            }
+          }
+        }
+      }
+    `
+  );
+  return (
+    <Wrapper as={Container} id="projects">
+      <h2>Projects</h2>
+      <Grid>
         {edges.map(({ node }) => (
           <Item key={node.id} as="a" href={node.url} target="_blank" rel="noopener noreferrer">
             <Card>
@@ -59,6 +60,7 @@ export const Projects = () => (
             </Card>
           </Item>
         ))}
-      </Grid> */}
-  </Wrapper>
-);
+      </Grid>
+    </Wrapper>
+  );
+};
