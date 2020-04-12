@@ -18,7 +18,7 @@ export const Intro = () => (
         .
       </Details>
       <Thumbnail>
-        <img src={dev} alt="I’m Scott and I’m a product manager & front-end engineer!" />
+        <img src={dev} alt="I’m Scott and I’m a product manager and front-end engineer!" />
       </Thumbnail>
     </IntroWrapper>
   </Wrapper>
