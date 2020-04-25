@@ -23,6 +23,11 @@ export const Button = styled.button`
     background: gray;
   }
 
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
   ${({ secondary }) =>
     secondary &&
     `
