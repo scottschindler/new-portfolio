@@ -11,7 +11,7 @@ export const Skills = () => (
         <img src={dev} alt="I’m Scott and I’m a Backend & Devops engineer!" />
       </Thumbnail>
       <Details>
-        <h1>Hi There!</h1>
+        <h1>About me</h1>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s
           standard dummy.
