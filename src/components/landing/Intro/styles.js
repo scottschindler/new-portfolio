@@ -45,7 +45,6 @@ export const Details = styled.div`
     font-size: 32pt;
     font-weight: normal;
     color: #707070;
-    text-align: center;
 
     @media (max-width: 680px) {
       font-size: 26pt;

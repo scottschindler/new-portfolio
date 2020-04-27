@@ -15,8 +15,7 @@ export const Skills = () => (
         <p>
           I graduated from Lambda School in March of 2020. Since then I've been working on my own side projects and
           doing some freelancing work. Please get in touch if you are looking for a project collaborater, a new employee
-          or just to chat! <br></br>
-          <br></br> I specialize in Javascript, React, Node.js, MongoDB and Firebase.
+          or just to chat!
         </p>
         {/* <Button as={AnchorLink} href="#contact">
           Let's chat!

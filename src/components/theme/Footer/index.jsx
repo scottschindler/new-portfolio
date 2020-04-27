@@ -13,10 +13,7 @@ export const Footer = () => (
           <span aria-label="love" role="img">
             💖
           </span>{' '}
-          by{' '}
-          <a href="https://smakosh.com/?ref=portfolio-dev" rel="noopener noreferrer" target="_blank">
-            Scott Schindler
-          </a>
+          by Scott Schindler
         </span>
       </Details>
       <Links>
