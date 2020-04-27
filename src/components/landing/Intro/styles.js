@@ -13,7 +13,6 @@ export const IntroWrapper = styled.div`
   padding: 4rem 0;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 
   @media (max-width: 960px) {
     flex-direction: column;
@@ -21,7 +20,10 @@ export const IntroWrapper = styled.div`
 `;
 
 export const Details = styled.div`
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   @media (max-width: 960px) {
     width: 100%;
@@ -43,6 +45,7 @@ export const Details = styled.div`
     font-size: 32pt;
     font-weight: normal;
     color: #707070;
+    text-align: center;
 
     @media (max-width: 680px) {
       font-size: 26pt;

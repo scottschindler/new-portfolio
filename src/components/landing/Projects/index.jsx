@@ -47,14 +47,14 @@ export const Projects = () => {
                 <p>{node.description}</p>
               </Content>
               <Stats>
-                {/* <div>
+                <div>
                   <img src={starIcon} alt="stars" />
                   <span>{node.stargazers.totalCount}</span>
-                </div> */}
-                {/* <div>
+                </div>
+                <div>
                   <img src={forkIcon} alt="forks" />
                   <span>{node.forkCount}</span>
-                </div> */}
+                </div>
               </Stats>
             </Card>
           </Item>

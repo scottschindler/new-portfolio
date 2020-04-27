@@ -13,12 +13,14 @@ export const Skills = () => (
       <Details>
         <h1>About me</h1>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s
-          standard dummy.
+          I graduated from Lambda School in March of 2020. Since then I've been working on my own side projects and
+          doing some freelancing work. Please get in touch if you are looking for a project collaborater, a new employee
+          or just to chat! <br></br>
+          <br></br> I specialize in Javascript, React, Node.js, MongoDB and Firebase.
         </p>
-        <Button as={AnchorLink} href="#contact">
-          View Blog
-        </Button>
+        {/* <Button as={AnchorLink} href="#contact">
+          Let's chat!
+        </Button> */}
       </Details>
     </SkillsWrapper>
   </Wrapper>
